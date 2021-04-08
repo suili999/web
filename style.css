@@ -1,0 +1,82 @@
+
+.bg{
+ background-image:url('');
+
+}
+
+.wrapper {
+
+  /* 声明一个容器 */
+   display: grid;
+    justify-content: center;
+
+  /*  声明列的宽度  */
+  grid-template-columns: repeat(3, 350px);
+  /*  声明行间距和列间距  */
+  grid-gap: 20px;
+  /*  声明行的高度  */
+  grid-template-rows: 50px 300px;
+}
+.one {
+  background: #612570;
+}
+.two {
+  background: #107595;
+}
+.three {
+  background: #6730ec;
+}
+.four {
+  background: #BEE7E9;
+}
+.five {
+  background: #E6CEAC;
+}
+.six {
+  background: #ECAD9E;
+  background-image:url('/Users/suili/Desktop/img_2576.jpg');
+
+}
+.item {
+  text-align: center;
+  font-size: 200%;
+  color: #fff;
+}
+
+.dropdown-content
+  {
+    display:none;
+    position:absolute;
+    background-color:#f9f9f9;
+    min-width:160px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  .dropdown-content a
+  {
+    color:black;
+    padding:12px 16px;
+    text-decoration:none;
+    display:block;
+  }
+
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  .dropdown:hover .dropdown-content
+  {
+    display:block;
+  }
+
+#banner{
+ background-size: 100%;
+ width:300px;
+	height: 109px;
+	background-image:url('/Users/suili/Desktop/bkg.jpeg') no-repeat;
+}
+
+
+.header {
+ background-image:url('/Users/suili/Desktop/背景.png');
+	height: 60px;
+
+}
+
